@@ -17,10 +17,16 @@ div {
 .heroes li {
   position: relative;
   cursor: pointer;
+  display: flex;
 }
 
 .heroes li:hover {
   left: .1em;
+}
+
+.heroes li button {
+  height: 2.5em;
+  margin-top: 0.65em;
 }
 
 .heroes a {
